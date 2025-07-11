@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Inicio - Depredadores Digitales</title>
+  <link rel="shortcut icon" href="DD1.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+<!-- HEADER -->
+  <header>
+    <a class="navbar-brand" href="#">
+      <br>
+      <img src="DD1.ico" alt="logo" width="40px">
+    </a>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        
+        <!-- DROPDOWN MÓVIL -->
+          <button class="navbar-toggler d-md-none dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="DD1.ico" alt="logo" width="30%">
+          </button> 
+
+        <!-- NAVBAR -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="casos.html">Casos</a></li>
+            
+            <!-- DROPDOWN -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="infoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="gap: 0.3rem;">
+                Información
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="infoDropdown">
+                <li><a class="dropdown-item" href="grooming.html">Grooming</a></li>
+                <li><a class="dropdown-item" href="iaym.html">IA y menores</a></li>
+                <li><a class="dropdown-item" href="legislacion.html">Legislación</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+            <li class="nav-item"><a class="nav-link" href="creditos.html">Créditos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<!-- INICIO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Depredadores Digitales</h2>
+      <p>Protegiendo niñeces y adolescencias de los peligros en internet. Conocé para prevenir el grooming y otros delitos digitales.</p>
+    </div>
+  </section>
+
+<!-- CAROUSEL -->
+
+ <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up">
+  <div class="carousel-inner">
+
+    <div class="carousel-indicators mb-2">
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-item active">
+      <div class="row g-0">
+        <div class="col-md-4 carousel-info">
+          <div>
+            <h3>Imagenes IA de menores</h3>
+            <p>Hoy en día la IA está muy avanzada, pero no todos la utilizan correctamente. Adultos generan imágenes de menores en situaciones sexualizadas.</p>
+          </div>
+        </div>
+        <div class="col-md-8 carousel-img">
+          <img src="imgs/carrusel1.png" class="d-block w-100" alt="Imagen 1">
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row g-0">
+        <div class="col-md-4 carousel-info">
+          <div>
+            <h3>Deepfakes</h3>
+            <p>Esta técnica se basa en poner la cara de una persona sobre otra, creando escenarios ficticios y humillándolas.</p>
+          </div>
+        </div>
+        <div class="col-md-8 carousel-img">
+          <img src="imgs/carrusel2.png" class="d-block w-100" alt="Imagen 2">
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row g-0">
+        <div class="col-md-4 carousel-info">
+          <div>
+            <h3>Pedofilia</h3>
+            <p>Consiste en la fantasía sexual o atracción de parte de los adultos hacia los niños menores de edad.</p>
+          </div>
+        </div>
+        <div class="col-md-8 carousel-img">
+          <img src="imgs/carrusel3.png" class="d-block w-100" alt="Imagen 3">
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row g-0">
+        <div class="col-md-4 carousel-info">
+          <div>
+            <h3>Desconocidos Online</h3>
+            <p>Más conocido como Grooming. Desconocidos te hablan por internet fingiendo ser una persona que realmente no son, corriendo riesgos, llevándote a una situación probablemente horrible.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8 carousel-img">
+          <img src="imgs/carrusel4.png" class="d-block w-100" alt="Imagen 4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-controls-below">
+      <button class="btn btn-outline-light btn-sm" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        ◀ Anterior
+      </button>
+      <button class="btn btn-outline-light btn-sm" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        Siguiente ▶
+      </button>
+  </div>
+</div>
+
+<!-- AYUDA -->
+  <section class="p-4 text-center bg-danger text-white">
+    <h3>¿Estás en peligro o necesitás ayuda?</h3>
+    <p>Llamá al <strong>102</strong> (línea gratuita para niñeces y adolescencias) o visitá:</p>
+    <a href="https://www.argentina.gob.ar/linea102" target="_blank" class="btn btn-light">Sitio oficial</a>
+  </section>
+
+<!-- CARTAS -->
+  <section data-aos="fade-up" data-aos-duration="2000">
+    <h2>Imágenes con IA de menores</h2>
+    <div class="cartas">
+      <div class="carta">
+        <h5>Protección de la privacidad</h5>
+        <p>Los menores tienen derecho a la privacidad y a la protección de su imágen.</p>
+      </div>
+      <div class="carta">
+        <h5>Prevención de explotación</h5>
+        <p>La generación de imágenes de menores puede ser utilizada para fines de explotación o abuso.</p>
+      </div>
+      <div class="carta">
+        <h5>Impacto psicológico</h5>
+        <p>La creación y distribución de imágenes de menores puede tener un impacto psicológico muy negativo.</p>
+      </div>
+    </div>
+    <div class="cartas">
+      <div class="carta">
+        <h5>Regulaciónes legales</h5>
+        <p>Muchas juridicciones tienen leyes específicas que protegen a los menores de la explotación y el abuso en medios digitales.</p>
+      </div>
+      <div class="carta">
+        <h5>Ética y responsabilidad</h5>
+        <p>La IA debe ser utilizada de manera responsable y ética, asegurando que no se cause daños a individuos o grupos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTADÍSTICAS -->
+  <section class="estadisticas text-center p-4 bg-dark">
+    <h2>Estadísticas sobre delitos digitales</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <h3>70%</h3>
+        <p>de los niños y adolescentes utilizan internet sin supervisión.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>1 de cada 5</h3>
+        <p>niños ha recibido mensajes inapropiados en redes sociales.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>+40%</h3>
+        <p>de los casos de grooming no se denuncian por miedo o desconocimiento.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section data-aos="fade-up">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/ddhelpcenter25@gmail.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="Nombre" placeholder="Nombre"/>
+      <input type="email" name="Mail" placeholder="Correo" required />
+      <textarea name="Mensaje" placeholder="Mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="passwordHelp" class="form-text">
+      Inserte mensaje de ayuda o información sobre a dónde será enviado este formulario.
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Feria de Ciencias.</p>
+  </footer>
+
+
+  <!-- AOS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  });
+</script>
+
+<!-- Botón de volver arriba -->
+<button id="scrollToTopBtn" style="position:fixed;bottom:30px;right:30px;display:none;background:#d33333;color:white;border:none;padding:10px 14px;border-radius:50%;font-size:20px;cursor:pointer;z-index:999;">↑</button>
+<script>
+  const scrollBtn = document.getElementById("scrollToTopBtn");
+  window.onscroll = () => {
+    scrollBtn.style.display = (window.scrollY > 400) ? "block" : "none";
+  };
+  scrollBtn.onclick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
